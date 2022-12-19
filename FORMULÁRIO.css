@@ -1,15 +1,18 @@
 body {
   /* Alinhamento de texto */
   text-align: center;
+  font-family: tangerine,cursive;
+  
   /* Cor de fundo da página */
- background: -webkit-gradient(linear, left top, right top, from(#39035B), to(#69005A));
- background: -moz-linear-gradient(left, #CCCCCC, #000000);
+  background: -webkit-gradient(linear, left top, right top, from(#39035B), to(#69005A));
+  background: -moz-linear-gradient(left, #CCCCCC, #000000) ;
 }
 
 h1 {
   /* Tamanho e cor da fonte do título */
-  font-size: 48px;
+  font-size: 70px;
   color: #69005A;
+  text-align: center;
 }
 
 h1:after{
@@ -39,17 +42,21 @@ h1:after{
   background-color: #f3f3f3;
   border-radius: 10px;
   padding: 20px 10px 10px 10px;
+  text-align: left;
+  font-size: 30px;
 }
 
 .fields {
+  /* Campo de sexo e data */
   display: inline-block;
   text-align: left;
   width: 48%;
   vertical-align: middle;
 }
 .labels {
+  /* Texto das 4 primeiras perguntas */
   display: inline-block;
-  text-align: right;
+  text-align: left;
   width: 40%;
   padding: 5px;
   vertical-align: top;
@@ -66,8 +73,8 @@ h1:after{
 }
 
 .dropdown {
-  height: 35px;
-  width: 140px;
+  height: 30px;
+  width: 290px;
   padding: 5px;
   margin: 15px 10px 10px 10px;
   border: 1px solid #c0c0c0;
@@ -87,19 +94,20 @@ h1:after{
   margin-right: 5px;
 }
 
-.button {
-  font-size: 1em;
+#botao{ text-align: center }
+.botaoEnviar{
+  width: 100px;
+  text-align: center;
+  padding: 15px 20px;
+  border: 1px solid #eee;
+  border-radius: 6px;
   background-color: #69005A;
-  /* Abaixo cor das letras do botão */
   color: white;
-  border: 0px solid;
-  border-radius: 4px;
-  height: 40px;
-  width: 80px;
-  margin: 10px;
+  font-size: 30px;
+  font-family: tangerine,cursive;
 }
  /* Cor do botão ao passar o mouse */
-.button:hover {
+.botaoEnviar:hover {
   background-color: #A102FA;
 }
 
