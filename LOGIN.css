@@ -2,7 +2,7 @@
 *, *:before, *:after { 
   margin:0;
   padding:0;
-  font-family: Arial,sans-serif;
+  font-family: tangerine,cursive;
 }
 
 body{
@@ -30,10 +30,10 @@ a.links{
 
 /* Dados do cabeçalho */
 h1{
-  font-size: 48px;
+  font-size: 70px;
   color: #69005A;
-  padding: 10px 0;
-  font-family: Arial,sans-serif;
+  padding: 10px;
+  font-family: tangerine,cursive;
   font-weight: bold;
   text-align: center;
   padding-bottom: 30px;
@@ -59,18 +59,18 @@ label{
   /* Nomes dos campos */
   color: black;
   position: relative;
+  font-size: 30px;
 }
 
 /**** advanced input styling ****/
 /* Caixa de texto */
 ::-webkit-input-placeholder  {
-  color: #bebcbc; 
-  font-style: arial;
+  color: #bebcbc;
+  font-size: 22px;
 }
 input:-moz-placeholder,
 textarea:-moz-placeholder{
-  color: #001C84;
-  font-style: italic;
+  color: #bebcbc;
 } 
 input {
   outline: none;
@@ -81,10 +81,10 @@ input:not([type="checkbox"]){
   width: 95%;
   margin-top: 4px;
   padding: 10px;  
-  border: 1px solid #000000;
+  border: 1px solid #c0c0c0;
   
   -webkit-border-radius: 3px;
-  border-radius: 3px;
+  border-radius: 4px;
   
   -webkit-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
   box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
@@ -100,7 +100,7 @@ input[type="submit"]{
   background: #69005A;
   padding: 8px 5px;
   color: #fff;
-  font-size: 20px;  
+  font-size: 28px;  
   border: 1px solid #fff; 
   margin-bottom: 10px;  
   text-shadow: 0 1px 1px #333;
@@ -125,7 +125,7 @@ input[type="submit"]:hover{
   height: 20px;
   width: 440px;
   padding: 17px 30px 20px 30px;
-  font-size: 16px;
+  font-size: 25px;
   text-align: right;
   border-top: 1px solid #bebcbc;
 
